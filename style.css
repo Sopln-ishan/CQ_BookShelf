@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*TODO: A different font colour might be better, also find a better colour combination
         Change the whole header to fixed position and remove option and make it a list*/
 body {
