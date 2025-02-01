@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fcd89f;
     color: #2d2d34;
-    height: 220vw;
+    height: auto;
 }
 
 /*Styling the header with basic properties*/
