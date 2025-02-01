@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <title>The BookShelf</title>
+</head>
+
+<body>
+    <header id="nav-bar">
+        <div class="left-half-of-header">
+            <!--Logo is added using css background-image property-->
+            <div id="logo" class="logo-and-name"></div>
+
+            <div id="header-name" class="logo-and-name">
+                <h1>The BookShelf</h1>
+            </div>
+        </div>
+
+        <div class="right-half-of-header">
+            <ul>
+                <li><a href="#featured">Featured Books</a></li>
+                <li><a href="#browse-by-genre">Browse by Genre</a></li>
+                <li><a href="#reviews-section">What Reader's Say</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <article>
+        <div id="introduction">
+            <div id="heading">
+                <h2>Welcome to my Bookshelf</h2>
+                <h4>A place where you can find a collection of good books, so hop on to find your next favorite.</h4>
+            </div>
+
+            <div id="bkg-img"></div>
+            <div class="browse-btn">
+                <a href="#featured" class="browse-btn-link">Browse Books</a>
+            </div>
+        </div>
+
+        <div id="featured">
+            <h2>Featured Books</h2>
+            <div id="popular">
+                <h4>Popular this month</h4>
+
+                <div id="popular-books-container">
+                    <div id="book-1" class="popular-books">
+                        <img src="images/book1.jpg" alt="image of the first days">
+                    </div>
+
+                    <div id="book-2" class="popular-books">
+                        <img src="images/book2.jpg" alt="image of feed">
+                    </div>
+
+                    <div id="book-3" class="popular-books">
+                        <img src="images/book3.jpg" alt="image of rot and run">
+                    </div>
+
+                    <div id="book-4" class="popular-books">
+                        <img src="images/book5.jpg" alt="image of married with zombies">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="discover">
+                <h4>Discover new books</h4>
+
+                <div id="discover-new-books-container">
+                    <div id="new-book-1" class="new-books">
+                        <img src="images/newBook1.jpg" alt="image of geisha">
+                    </div>
+
+                    <div id="new-book-2" class="new-books">
+                        <img src="images/newBook2.jpg" alt="image of the guernsey">
+                    </div>
+
+                    <div id="new-book-3" class="new-books">
+                        <img src="images/newBook3.jpg" alt="image of the water for elephants">
+                    </div>
+
+                    <div id="new-book-4" class="new-books">
+                        <img src="images/newBook4.jpg" alt="image of the help">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="browse-by-genre">
+            <h2>Browse by Genre</h2>
+            <div id="genres-container">
+                <div id="sci-fi" class="genre-books">
+                    <img src="images/sci-fi-image.jpg">
+                    <h3>Sci-fi</h3>
+
+                    <div id="browse-sci-fi-btn" class="browse-btn">
+                        <a href="#" id="sci-fi-btn" class="browse-btn-link">Browse Books</a>
+                    </div>
+                </div>
+
+                <div id="romance" class="genre-books">
+                    <img src="images/romance.jpg">
+                    <h3>Romance</h3>
+
+                    <div id="browse-romance-btn" class="browse-btn">
+                        <a href="#" class="browse-btn-link">Browse Books</a>
+                    </div>
+                </div>
+
+                <div id="mystery" class="genre-books">
+                    <img src="images/mystery.jpg">
+                    <h3>Mystery</h3>
+
+                    <div id="browse-mystery-btn" class="browse-btn">
+                        <a href="#" class="browse-btn-link">Browse Books</a>
+                    </div>
+                </div>
+
+                <div id="fiction" class="genre-books">
+                    <img src="images/fiction.jpeg">
+                    <h3>Fiction</h3>
+
+                    <div id="browse-fiction-btn" class="browse-btn">
+                        <a href="#" class="browse-btn-link">Browse Books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="reviews-section">
+            <h2>What Reader's Say</h2>
+            <div id="example-review-1" class="example-reviews">
+                <div id="user-1-name" class="name">
+                    <h4>&#9733 The Amazing Spiderman</h4>
+                </div>
+
+                <div id="user-1-review" class="review">
+                    <p>I really liked the design and colour scheme of the webpage and the shadows are also very nice,
+                    would have been better if the site had more genres and some links were actually working. All in all,
+                    a great webpage.</p>
+                </div>
+            </div>
+
+            <div id="example-review-2" class="example-reviews">
+                <div id="user-2-name" class="name">
+                    <h4>&#9733 His Dead Girlfriend</h4>
+                </div>
+
+                <div id="user-2-review" class="review">
+                    <p>The page looks lovely, the images are nice. Only if the whole thing would have had some flowers
+                        then it would have been better. I really liked the limited collection that there is on the Bookshelf
+                        now, hope the editor adds more books in the future. Would have been better if he would have saved me!</p>
+                </div>
+            </div>
+
+            <div id="review-form">
+                <h2>Enter Your Experience</h2>
+                <form>
+                    <div id="line-one">
+                        <div id="enter-name">
+                            <label for="name">Name: </label>
+                            <input type="text" id="name">
+                        </div>
+
+                        <div id="enter-email">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+
+                    <div id="line-two">
+                        <label for="review">Your experience: </label> <br>
+                        <textarea placeholder="your experience" id="review"></textarea>
+                    </div>
+
+                    <input type="submit" id="submit-btn">
+                </form>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div id="contact-me">
+            <a href="#" id="linkedin-link" class="link-card">LinkedIn</a>
+            <a href="mailto: ishansekhar.24@kgpian.iitkgp.ac.in" id="email-link" class="link-card">E-mail</a>
+            <a href="#" id="github-link" class="link-card">Github</a>
+        </div>
+
+        <div id="copyright-section">
+            <p>&copy All rights reserved by the Bookshelf</p>
+        </div>
+
+        <div id="back-to-top-btn">
+            <a href="#introduction">To Top</a>
+        </div>
+    </footer>
+</body>
+</html>
